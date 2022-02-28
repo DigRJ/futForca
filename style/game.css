@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.flex,.boxGame, .boxGameTeclado, .boxGameTracos,.boxGameDica, .boxGameChances,.boxGameBarraTop{
+    display: flex;
+}
+
+.justifycontent, .boxGameTeclado, .boxGameTracos, .boxGameDica, .boxGameChances,.boxGameBarraTop{
+    justify-content: center;
+}
+
+.alingcenter, .boxGameTeclado,.boxGameTracos, .boxGameDica, .boxGameChances,.boxGameBarraTop{
+    align-items: center;
+}
+
+.heightauto{
+    height: 100%;
+
+}
+
+.wrap{
+
+    flex-wrap: wrap;
+}
+
+
+.boxGame{
+
+    width: 100%;
+    height: 840px;
+
+    flex-direction: column;
+
+
+}
+
+.boxGameBarraTop p {
+
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: goldenrod;
+}
+
+.boxGameBarraTop{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(48, 90, 72);
+    margin-top: 5px;
+
+}
+
+.boxGameLevel{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(30, 99, 53);
+    margin-top: 5px;
+
+}
+
+
+
+.boxGameChances{
+
+    width: 100%;
+    height: 180px;
+    flex-wrap: wrap;
+    background-color:  rgb(140, 207, 160)
+
+}
+
+.boxGameChanceTxt{
+
+    width: 100%;
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.boxGameVidas{
+
+    width: 100%;
+    font-size: 120px;
+    color: orangered;
+    text-align: center;
+
+
+}
+
+.boxGameTracos{
+
+    display: flex;
+    width: 100%;
+    height: 240px;
+    background: rgb(13,83,84);
+    background: linear-gradient(0deg, rgba(13,83,84,1) 0%, rgba(33,197,181,1) 9%, rgba(15,97,44,1) 9%, rgba(13,113,103,1) 90%, rgba(30,181,167,1) 90%, rgba(13,83,84,1) 100%);
+}
+
+.boxGameAjuste{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.boxGameAjuste p {
+
+    font-size: 22px;
+    margin-right: 5px;
+    font-family: 'Press Start 2P', cursive;    color: gold;
+    font-weight: bolder;
+    
+
+}
+
+.boxGameDica{
+
+    width: 100%;
+    height: 36px;
+    background-color: rgb(20, 59, 55)
+
+}
+
+.txtDica{
+
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  goldenrod
+
+}
+
+
+.boxGameTeclado{
+
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(144, 168, 4);
+    flex-wrap: wrap;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.boxGameTeclado button{
+
+    width: 52px;
+    height: 52px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color:  darkgray;
+}
+
+
+.boxGameFooter{
+
+    width: 100%;
+    height: 40px;
+    background-color: rgb(158, 156, 141);
+  
+}
+
+
